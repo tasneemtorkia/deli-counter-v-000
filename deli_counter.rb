@@ -9,6 +9,6 @@ def line(katz_deli)
      katz_deli.collect.each_with_index do |katz_deli, index| 
      queue.push("#{index + 1}. #{katz_deli}")
   end 
-  puts "The line is currently #{queue.join(" ")}"
+  puts "The line is currently: #{queue.join(" ")}"
 end
 end 
